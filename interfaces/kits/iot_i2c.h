@@ -110,5 +110,5 @@ unsigned int IoTI2cRead(unsigned int id, unsigned short deviceAddr, unsigned cha
  */
 unsigned int IoTI2cSetBaudrate(unsigned int id, unsigned int baudrate);
 
-#endif
+#endif // IOT_I2C_H
 /** @} */

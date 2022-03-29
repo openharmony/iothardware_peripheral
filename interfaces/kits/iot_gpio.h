@@ -224,5 +224,5 @@ unsigned int IoTGpioSetIsrMask(unsigned int id, unsigned char mask);
  */
 unsigned int IoTGpioSetIsrMode(unsigned int id, IotGpioIntType intType, IotGpioIntPolarity intPolarity);
 
-#endif
+#endif // IOT_GPIO_H
 /** @} */

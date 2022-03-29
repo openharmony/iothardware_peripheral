@@ -50,5 +50,5 @@
  */
 void RebootDevice(unsigned int cause);
 
-#endif
+#endif // RESET_H
 /** @} */

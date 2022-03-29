@@ -126,11 +126,11 @@ typedef struct {
     /** Baud rate */
     unsigned int baudRate;
     /** Data bits */
-    IotUartIdxDataBit dataBits; 
+    IotUartIdxDataBit dataBits;
     /** Stop bit */
-    IotUartStopBit stopBits; 
+    IotUartStopBit stopBits;
     /** Parity */
-    IotUartParity parity; 
+    IotUartParity parity;
     /** Rx block state */
     IotUartBlockState rxBlock;
     /** Tx block state */
@@ -207,5 +207,5 @@ unsigned int IoTUartDeinit(unsigned int id);
  */
 unsigned int IoTUartSetFlowCtrl(unsigned int id, IotFlowCtrl flowCtrl);
 
-#endif
+#endif // IOT_UART_H
 /** @} */

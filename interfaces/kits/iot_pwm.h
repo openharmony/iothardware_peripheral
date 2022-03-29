@@ -89,5 +89,5 @@ unsigned int IoTPwmStart(unsigned int port, unsigned short duty, unsigned int fr
  */
 unsigned int IoTPwmStop(unsigned int port);
 
-#endif
+#endif // IOT_PWM_H
 /** @} */

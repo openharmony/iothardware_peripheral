@@ -50,5 +50,5 @@
  */
 #define IOT_FAILURE   (-1)
 
-#endif
+#endif // IOT_ERRNO_H
 /** @} */

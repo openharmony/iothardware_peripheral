@@ -64,5 +64,5 @@ void IoTWatchDogKick(void);
  */
 void IoTWatchDogDisable(void);
 
-#endif
+#endif // IOT_WATCHDOG_H
 /** @} */

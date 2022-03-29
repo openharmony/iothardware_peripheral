@@ -71,5 +71,5 @@ unsigned int LpcInit(void);
  */
 unsigned int LpcSetType(LpcType type);
 
-#endif
+#endif // LOWPOWER_H
 /** @} */

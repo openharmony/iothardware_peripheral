@@ -105,5 +105,5 @@ unsigned int IoTFlashInit(void);
  */
 unsigned int IoTFlashDeinit(void);
 
-#endif
+#endif  // IOT_FLASH_H
 /** @} */
