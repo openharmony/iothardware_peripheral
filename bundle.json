@@ -1,0 +1,34 @@
+{
+    "name": "@ohos/iot_controller",
+    "description": "Iot peripheral controller.",
+    "version": "3.1",
+    "license": "Apache License 2.0",
+    "publishAs": "code-segment",
+    "segment": {
+        "destPath": "applications/sample/camera/communication"
+    },
+    "dirs": {},
+    "scripts": {},
+    "component": {
+        "name": "iot_controller",
+        "subsystem": "iot_hardware",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [
+            "mini"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [
+                "//base/iot_hardware/peripheral:iothardware"
+            ],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
