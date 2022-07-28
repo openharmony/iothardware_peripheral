@@ -11,9 +11,9 @@ The Internet of Things \(IoT\) hardware subsystem provides APIs for operating Io
 ## Directory Structure<a name="section1464106163817"></a>
 
 ```
-/base/iot_hardware/peripheral
+/base/iothardware/peripheral
 ├── interfaces
-    └── kits                      # APIs for operating IoT devices
+    └── inner_api                      # APIs for operating IoT devices
 ```
 
 ## Constraints<a name="section1718733212019"></a>

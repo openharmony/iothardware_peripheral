@@ -11,9 +11,9 @@ IOT（The Internet of Things）硬件设备操作的接口。本模块提供设�
 ## 目录<a name="section1464106163817"></a>
 
 ```
-/base/iot_hardware/peripheral
+/base/iothardware/peripheral
 ├── interfaces
-    └── kits                      #IOT设备操作接口,对外接口存放目录  
+    └── inner_api                      #IOT设备操作接口,对外接口存放目录  
 ```
 
 ## 约束<a name="section1718733212019"></a>

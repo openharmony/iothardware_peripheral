@@ -24,6 +24,6 @@ if (ohos_kernel_type == "liteos_m") {
     deps = [
       "$ohos_board_adapter_dir/hals/iot_hardware/wifiiot_lite:hal_iothardware",
     ]
-    head_files = [ "//base/iot_hardware/peripheral/interfaces/kits" ]
+    head_files = [ "//base/iothardware/peripheral/interfaces/inner_api" ]
   }
 }
